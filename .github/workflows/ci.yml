@@ -1,4 +1,4 @@
-name: Portfolio CI
+name: Portfolios CI
 
 on:
   push:
@@ -16,6 +16,6 @@ jobs:
       - name: Check HTML File
         run: test -f index.html
 
-      - name: Display Success Message
+      - name: Displlay Success Message
         run: echo "Portfolio website CI completed successfully"
 
